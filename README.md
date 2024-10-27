@@ -17,6 +17,10 @@
 ### Biblioteca SweetAlert2
 O projeto utiliza a biblioteca **SweetAlert2** para exibir alertas e mensagens modais de forma elegante e interativa.
 
+- Foi adicionado esta linha de comando no final do `<body>`:
+    ```html
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+    ```
 #### Funcionalidades Principais:
 - **Alertas Personalizáveis**: Permite criar alertas com diferentes estilos, ícones e botões personalizados.
 - **Confirmação de Ações**: Solicita confirmação do usuário antes de ações críticas.
@@ -25,13 +29,6 @@ O projeto utiliza a biblioteca **SweetAlert2** para exibir alertas e mensagens m
 #### Exemplos de Uso:
 - Exibição de mensagens de aviso em buscas sem resultados.
 - Confirmação de exclusão de produtos do carrinho.
-
-### Biblioteca SweetAlert2
-O projeto utiliza a biblioteca **SweetAlert2** para exibir alertas e mensagens modais de forma elegante e interativa.
-- Foi adicionado esta linha de comando no final do `<body>`:
-    ```html
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
-    ```
 
 ## Observações Adicionais
 Projeto desenvolvido com responsividade e semântica, proporcionando uma experiência otimizada.
