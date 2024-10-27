@@ -26,12 +26,9 @@ O projeto utiliza a biblioteca **SweetAlert2** para exibir alertas e mensagens m
 - Exibição de mensagens de aviso em buscas sem resultados.
 - Confirmação de exclusão de produtos do carrinho.
 
-#### Instalação:
-1. Para instalar o SweetAlert2, utilize o seguinte comando:
-    ```bash
-    npm install sweetalert2
-    ```
-2. Adicione esta linha no final do `<body>`:
+### Biblioteca SweetAlert2
+O projeto utiliza a biblioteca **SweetAlert2** para exibir alertas e mensagens modais de forma elegante e interativa.
+- Foi adicionado esta linha de comando no final do `<body>`:
     ```html
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
     ```
@@ -47,12 +44,6 @@ Ter a extensão Live Server instalada no Visual Studio Code.
 - Clique com o botão direito do mouse em cima do arquivo `index.html`.
 - Escolha a opção **Open With Live Server** para subir a aplicação no localhost.
 - E pronto! Boas Compras!
-
-<!-- Adicione o vídeo com autoplay -->
-<video width="650" autoplay muted loop>
-    <source src="./assets/video/video.mp4" type="video/mp4">
-    Seu navegador não suporta a tag de vídeo.
-</video>
 
 ## Créditos das Imagens
 As imagens utilizadas neste projeto foram obtidas na [Pexels](https://www.pexels.com).
