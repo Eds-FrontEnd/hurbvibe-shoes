@@ -7,7 +7,7 @@
 3. JavaScript
 
 ## Conceitos Principais
-- **Microserviços Frontend**: Implementação do conceito de microserviços para facilitar a manutenção do código.
+- **Microsserviços Frontend**: Implementação do conceito de microsserviços para facilitar a manutenção do código.
 - **LocalStorage**: Utilização do LocalStorage para salvar as interações do usuário.
 - **ES6**: Aplicação das melhores práticas do ES6 para um código mais limpo e eficiente.
 - **Customizações**: Implementação de diversas customizações para melhorar a experiência do usuário, como a funcionalidade de pesquisar produtos.
