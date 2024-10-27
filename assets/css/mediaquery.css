@@ -1,0 +1,75 @@
+@media screen and (max-width: 1115px) {
+  .lancamento-info,
+  .despojado-info,
+  .exclusivo-info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    padding: 0 25px 25px 25px;
+  }
+
+  .lancamento-info img,
+  .despojado-info img,
+  .exclusivo-info img {
+    margin-top: 375px;
+  }
+  .lancamento-info span,
+  .despojado-info span,
+  .excluxivo-info span {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .slideshow-controls {
+    display: none;
+  }
+  .container-cards .card {
+    width: 50%;
+  }
+
+  .container-cards .card img {
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .menu {
+    display: none;
+  }
+
+  .menu-mobile {
+    display: flex;
+  }
+
+  .mini-card {
+    width: 100vw;
+  }
+
+  .header_search {
+    margin: 0px 21px;
+  }
+
+  .container-cards .card {
+    width: 100vw;
+  }
+
+  .container-cards .card img {
+    width: 100vw;
+  }
+  .mini-card__total {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  body {
+    min-width: 320px;
+  }
+
+  .slideshow-width,
+  .slideshow-item img {
+    min-width: 320px;
+  }
+}

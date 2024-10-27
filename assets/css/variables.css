@@ -1,0 +1,12 @@
+:root{
+    /* Colors */
+    --black: #000;
+    --white: #fff;
+    --yellow: #ff0;
+    --pink: rgb(250, 33, 250);
+    --green: chartreuse;
+    --green-dark: rgb(103, 204, 2);
+   
+    /* Font-Family */
+    --sansSerif: sans-serif;
+}

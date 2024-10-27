@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Variaveis -->
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <!-- Media Query - Responsividade -->
+    <link rel="stylesheet" href="assets/css/mediaquery.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
+    <!-- SweetAlert2 https://sweetalert2.github.io/ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <title>HubVibe Shoes</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header_menu">
+            <!-- Logo -->
+            <div class="logo home">
+                <img src="assets/img/logo.png" title="Logo HubVibe Shoes" alt="logo HubVibe Shoes">
+            </div>
+            <!-- Menu -->
+            <div class="menu" title="menu" alt="menu">
+                <ul>
+                    <li><a title="Lançamento" class="lancamento">Lançamento</a></li>
+                    <li><a title="Despojados" title="Despojado" class="despojado">Despojado</a></li>
+                    <li><a title="Exclusivos" title="Exclusivo" class="exclusivo">Exclusivo</a></li>
+                    <li><a title="Contato" title="Contato" class="contato">Contato</a></li>
+                </ul>
+            </div>
+            <!-- Pesquisa -->
+            <div class="header_search">
+                <div class="search">
+                    <input type="text">
+                    <img src="assets/img/search.svg" alt="Pesquisar" title="Pesquisar">
+                </div>
+            </div>
+            <!-- Menu-Mobile -->
+            <div class="menu-mobile" title="menu" alt="menu">
+                <img src="assets/img/menu_mobile.svg" alt="Pesquisar" title="Pesquisar">
+                <ul>
+                    <li><a title="Lançamento" class="lancamento">Lançamento</a></li>
+                    <li><a title="Despojado" title="Despojado" class="despojado">Despojado</a></li>
+                    <li><a title="Exclusivo" title="Exclusivo" class="exclusivo">Exclusivo</a></li>
+                    <li><a title="Contato" title="Contato" class="contato">Contato</a></li>
+                </ul>
+            </div>
+             <!-- Carrinho de Compra  -->
+            <div class="header_cart">
+                <img src="assets/img/cart.png" title="carrinho de compras" alt="carrinho de compras">
+                <div class="header_cart_counter">0</div>
+            </div>
+        </div>
+    </header>
+    <!-- Mini Carrinho -->
+    <div class="shadow"></div>
+    <!-- Loading -->
+    <div id="loading">
+        <img src="assets/img/logo.png" >
+    </div>
+    <section>
+        <div class="mini-card">
+            <div class="close">
+                <img src="assets/img/close.svg" title="fechar carrinho" alt="fechar carrinho">
+            </div>
+
+            <!-- Mini Cart Product -->
+            <div class="carts-item">
+                
+            </div>
+            
+            <div class="mini-card-bag">
+                <img src="assets/img/cart_vazio.svg" title="carrinho vazio, volte as compras" alt="carrinho vazio, volte as compras">
+                <h3>Seu carrinho está vazio.</h3>
+            </div>
+            <div class="mini-card__total">
+                Total: <span class="mini-card__value"></span>
+                <button class="mini-card__button" title="botão para finalizar as compras" alt="botão para finalizar as compras">Finalizar Compra</button>
+            </div>
+        </div>
+    </section>
+    <!-- Cards dos Calçados -->
+    <main>
+        <!-- slideshow -->
+        <div class="spa">
+            <div class="slideshow">
+                <div class="slideshow-controls">
+                    <button class="prev">&lt;</button>
+                    <button class="next">&gt;</button>
+                </div>
+                <div class="slideshow-width">
+                    <div class="slideshow-item"><img src="assets/img/banner/banner_01.jpg" alt="Banner 01" loading="lazy" id="banner01" /></div>
+                    <div class="slideshow-item"><img src="assets/img/banner/banner_02.jpg" alt="Banner 02" loading="lazy" id="banner02" /></div>
+                    <div class="slideshow-item"><img src="assets/img/banner/banner_03.jpg" alt="Banner 03" loading="lazy" id="banner03" /></div>
+                </div>
+            </div>
+        
+            <!-- InfoBar -->
+            <div class="infobar">
+                <h1 title="frete grátis à partir de cem reais" alt="frete grátis à partir de cem reais">Frete Grátis à partir de R$ 100,00</h1>
+                <!-- <img src="assets/img/transporte.svg" alt=""> -->
+            </div>
+            <div class="container-cards">
+                <!-- Cards -->
+            </div>
+        </div>
+        <!-- Footer -->
+        <button class="up">UP</button>
+        <footer>
+            <h6> ® Feito com 🚀 dedicação! - <span id="footer-age"></span></h6>
+        </footer>
+    </main>
+    <!-- Scripts -->
+    <script type="module" src="assets/js/localStorage.js" defer></script>
+    <script type="module" src="assets/js/spa.js" defer></script>
+    <script src="assets/js/api.js" defer></script>
+    <script src="assets/js/script.js" defer></script>
+    <script src="assets/js/cards.js" defer></script>
+    <script type="module" src="assets/js/search.js" defer></script>
+    <script src="assets/js/slideshow.js" defer></script>
+    <script type="module" src="assets/js/loading.js" defer></script>
+    <script type="module" src="assets/js/minicart.js" defer></script>
+    <script type="module" src="assets/js/modal.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+</body>
+</html>
